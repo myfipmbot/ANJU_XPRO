@@ -40,12 +40,12 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "ANJU-XPRO~CY9zjBLa#u9kiy1XnUHBsBCZp365tXc7YF1FReWno8uPgYZfuDqU",
+    SESSION_ID: process.env.SESSION_ID || "ANJU-XPRO~6QEC1YiB#BldTyrCAwwPCZfKJWl8UeAKn4G2KU405WzdhBn3aNJw",
     GITHUB_TOKEN: process.env.GITHUB_TOKEN || "J4FBtFuGoY5Pm8gjDartiFMA22KDOH0mGShS",
     GITHUB_USERNAME: process.env.GITHUB_USERNAME || "myfipmbot",
     SUDO: process.env.SUDO ? process.env.SUDO.split(",") : ["94760383959", "94760383959"],
     PORT: process.env.PORT || "8000",
     SESSION_DIR: process.env.SESSION_DIR || "session",
-    FOOTER: process.env.FOOTER || "> 𝙆𝘼𝙑𝙄 𝙀𝙓𝙀 𝙈𝙊𝙑𝙄𝙀 𝘿𝙇🎬\n> Developed by Mr. 𝗞𝗮𝘃𝗶𝘀𝗵𝗸𝗮\n> 𝗔𝗟𝗟 𝗠𝗢𝗩𝗜𝗘 𝗗𝗟\n\ud83c\udf1f Premium Version | Advanced Features | Secure & Reliable \ud83c\udf1f\n\u00a9 2025 𝗞𝗔𝗩𝗜 𝗘𝗫𝗘 𝗠𝗢𝗩𝗜𝗘 𝗗𝗟🎥. All rights reserved." 
+    FOOTER: process.env.FOOTER || "> 𝙆𝘼𝙑𝙄 𝙀𝙓𝙀 𝙈𝙊𝙑𝙄𝙀 𝘿𝙇🎬." 
   };
   
